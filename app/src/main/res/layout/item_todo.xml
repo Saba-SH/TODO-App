@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_marginStart="@dimen/main_page_todo_margin_horizontal"
+    android:layout_marginTop="@dimen/main_page_todo_margin_vertical"
+    android:layout_marginEnd="@dimen/main_page_todo_margin_horizontal"
+    android:layout_marginBottom="@dimen/main_page_todo_margin_vertical"
+    android:padding="@dimen/main_page_todo_padding"
+    android:background="@drawable/rounded_frame">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="start">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="@string/todo_item_title_placeholder"
+            android:textSize="@dimen/big_text_size"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/item1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_item_margin"
+            android:layout_marginBottom="@dimen/list_item_margin"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/list_item_name_placeholder"
+            android:layout_gravity="start"
+            android:buttonTint="@color/dark_gray"/>
+
+        <CheckBox
+            android:id="@+id/item2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_item_margin"
+            android:layout_marginBottom="@dimen/list_item_margin"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/list_item_name_placeholder"
+            android:layout_gravity="start"
+            android:buttonTint="@color/dark_gray"/>
+
+        <CheckBox
+            android:id="@+id/item3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_item_margin"
+            android:layout_marginBottom="@dimen/list_item_margin"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/list_item_name_placeholder"
+            android:layout_gravity="start"
+            android:buttonTint="@color/dark_gray"/>
+
+        <TextView
+            android:id="@+id/tvDots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/list_item_margin"
+            android:layout_marginBottom="@dimen/list_item_margin"
+            android:text="@string/dots"
+            android:textSize="@dimen/small_text_size" />
+
+        <TextView
+            android:id="@+id/tvCheckedItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/list_item_margin"
+            android:layout_marginBottom="@dimen/list_item_margin"
+            android:text="@string/checked_items_placeholder"
+            android:textSize="@dimen/small_text_size" />
+
+
+    </LinearLayout>
+</LinearLayout>

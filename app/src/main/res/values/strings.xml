@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TO_DOAPP</string>
+    <string name="searchbar_hint">Search your notes</string>
+    <string name="todo_item_title_placeholder">Todo Title</string>
+    <string name="list_item_name_placeholder">List Item</string>
+    <string name="add_button_speakable_text">Add Button</string>
+    <string name="back_button_speakable_text">Back Button</string>
+    <string name="pin_button_speakable_text">Pin Button</string>
+    <string name="pinned">PINNED</string>
+    <string name="other">OTHER</string>
+    <string name="dots">…</string>
+    <string name="checked_items_placeholder">+x checked items</string>
+    <string name="todo_name_hint">Type name here</string>
+    <string name="edit_list_item_hint">Enter item</string>
+    <string name="checked_item_name_placeholder">Checked item</string>
+    <string name="list_item_adder_string"> List item</string>
+</resources>
